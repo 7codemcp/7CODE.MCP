@@ -122,7 +122,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\Setup.ps1
 
 The execution-policy flag applies only to that PowerShell process and does not change the global policy. A standard MCP client can also run .venv/Scripts/python.exe -m seven_code_mcp directly. That stdio entry point has no independent identity layer, so it should only be invoked by a trusted local client or the official Tunnel process.
 
-The Python distribution name remains windows-local-mcp even though the GitHub repository is named windows-local-mcp. Keeping the package name stable avoids breaking existing installs, commands, and upgrade paths.
+This 7CODE fork uses the Python distribution name `seven-code-mcp` and the import package `seven_code_mcp`. Install this fork using `Setup.ps1`; the original Windows Local MCP distribution and its legacy state marker remain separate for compatibility.
 
 ## Official references
 
