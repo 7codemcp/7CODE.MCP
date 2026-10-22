@@ -1,3 +1,3 @@
 @echo off
-cd /d "%~dp0windows-local-mcp-main"
+cd /d "%~dp07CODE_MCP"
 call "Control.cmd"
