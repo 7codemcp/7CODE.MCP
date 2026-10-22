@@ -122,7 +122,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\Setup.ps1
 
 脚本的执行策略只对这一次 PowerShell 进程生效，不修改全局策略。标准 MCP 客户端也可以直接运行 .venv/Scripts/python.exe -m seven_code_mcp。这个 stdio 入口自身不做独立身份认证，因此调用者应当是受信任的本机客户端或官方 Tunnel 进程。
 
-Python 包名仍保留为 windows-local-mcp，即使 GitHub 仓库名为 windows-local-mcp；这样可以避免破坏现有安装、命令和升级路径。
+本 7CODE 分支的 Python 发行包名已改为 `seven-code-mcp`，导入模块为 `seven_code_mcp`。请使用 `Setup.ps1` 安装此版本；原版 Windows Local MCP 的标记仅为兼容旧配置而保留。
 
 ## 官方资料
 
