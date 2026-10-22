@@ -1,0 +1,17 @@
+**/.local/
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.env
+**/.env.*
+**/connection.json
+**/*.sqlite3
+**/*.sqlite3-*
+**/*.db
+**/*.log
+**/*.pyc
+**/audit/
+**/backups/
+**/PAUSED
+**/running.json

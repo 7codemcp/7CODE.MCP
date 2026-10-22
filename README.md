@@ -6,7 +6,7 @@ Windows-based MCP project with local desktop/file automation and opt-in SQLite p
 
 Launch 7CODE.cmd on Windows to access the terminal control menu.
 Application source and tests are under windows-local-mcp-main/.
-Windows Tunnel runtime archives are included in tunnel-client-runtime/.
+The original local ZIP includes two prepacked Windows Tunnel runtime archives. To keep the source repository lightweight, binary runtime archives are not committed here. Run Setup.ps1 to download the official Tunnel client when setting up the service.
 
 ## Security
 
